@@ -1,3 +1,93 @@
-body {
+.img-carroussel {
+  height: 70vh;
+  width: 70vw;
+}
 
+.logo > img {
+  height: 150px;
+  width: 150px;
+}
+
+.navbar {
+  background-color: rgb(102,0,0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 70%;
+}
+
+.link {
+  text-decoration: none;
+  margin: 20px;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background-color: rgb(102,0,0);
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(102,0,0);
+   color: white;
+   text-align: center;
+}
+.partenaires{
+  display: flex;
+  background-color: rgb(102,0,0);
+  height: 50px;
+  width: 50px;	
+}
+.class-image{
+  height: 35vh;
+  width: 35vw;
+}
+
+.image-fit{
+width: 75%;
+ object-fit: cover;
+}
+.titre{
+	align-content: center;
+}
+.card-wrapper {
+width: 55vw;
+margin: auto;
+}
+
+.container_down{
+  flex-direction: column;
+}
+.container_line{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.boutique{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.equipe{
+	flex-direction: column;
 }
