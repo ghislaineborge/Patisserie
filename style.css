@@ -1,3 +1,71 @@
-body {
+.navbar {
+	background-color: rgb(102 0 0);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
 
+}
+
+.logo {
+	text-decoration: none
+}
+
+.logo > img {
+	height: 80px;
+	width : 80px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.menu {
+	
+
+}
+
+.link{
+	text-decoration: none;
+	margin: 20px;
+	padding: 15px;
+	color : white;
+	font-size: 14px;
+	font-family: arial;
+	border-radius: 4px;
+
+}
+.link:hover {
+	background: grey;
+}
+
+.img-carousel {
+	width: 10vw;
+	height: 65vh;
+}
+.partenaires {
+	display:flex-wrap : 
+	height: 50px;
+	width: 50px;
+}
+
+.img-height {
+ 	height: 30vh;
+}
+
+.img-fit {
+ 	object-fit: cover;
+}
+
+.class-images {
+	height: 35vh;
+}
+.nosvos {
+	display: flex;
+	color: black ;
+	font-family: arial;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
+	padding:20px;
+
+	
 }
